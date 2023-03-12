@@ -4,6 +4,7 @@ import EventSlider from "./components/EventSlider";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./UI/NavBar";
 import PacmanLoader from "react-spinners/PacmanLoader";
+import Footer from "./UI/Footer";
 
 const App = () => {
   const [loading, setLoading] = React.useState(false);
@@ -31,6 +32,7 @@ const App = () => {
           <HeroSection />
           <EventSlider />
           <BodySection />
+          <Footer/>
         </div>
       )}
     </div>
